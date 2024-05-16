@@ -4,6 +4,16 @@
   Ejemplo: 
   extractValues({a: 1, b: 2, c: 3}) debería retornar [1, 2, 3]
 */
+function arrayToLengthCounters(array) {
+    function arrayToLengthCounters(array) {
+      const result = {};
+      array.forEach((element) => {
+        result[element] = element.length;
+      });
+      return result;
+    }
+  }
+  
 
 /*  
   Ejercicio 2: 
