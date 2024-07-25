@@ -47,7 +47,7 @@ function findKeysInCommon(objeto1, objeto2) {
   
   function main() {
     console.log(extractValues({a: 1, b: 2, c: 3}));
-    console.log(arrayToLengthCounters(['gato', 'perro', 'elefante',murcielago]));
+    console.log(arrayToLengthCounters(['gato', 'perro', 'elefante',murcielago,coyote]));
     console.log(findKeysInCommon({a: 1, b: 2, c: 3}, {b: 4, c: 5, d: 6}));
   }
   
